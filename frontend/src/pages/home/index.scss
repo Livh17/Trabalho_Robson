@@ -1,0 +1,32 @@
+body {
+    background: #141E30;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+
+
+
+main {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        background-clip: text;
+        color: rgba(255, 255, 255, 0);
+        margin-bottom: 20px;
+        font-size: 80px;
+    }
+
+    p {
+        background-clip: text;
+        color: rgba(255, 255, 255, 0.877);
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+}
